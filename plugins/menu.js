@@ -67,9 +67,9 @@ cmd(
     ▫️.system
     ▫️.owner
 | *DOWNLOAD COMMANDS* |
-    ▫️.song <text>
-    ▫️.video <text>
-    ▫️.fb <link>
+    ▫️.song <https://song.lk/>
+    ▫️.video <aouto>
+    ▫️.fb <https://www.facebook.com/profile.php?id=100089624648632>
 | *GROUP COMMANDS* |
 ${menu.group}
 | *OWNER COMMANDS* |
@@ -84,7 +84,7 @@ ${menu.group}
 ${menu.search}
 
 
-🥶𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒_𝐈_𝐇_𝐈_𝐋_𝐄_𝐋🥶
+🥶𝐌𝐚𝐝𝐞 𝐛𝐲 DEW WEB DEVOLOPER🥶
 
 > ROBIN MENU MSG
 `;
