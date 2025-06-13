@@ -86,7 +86,7 @@ ${menu.search}
 
 🥶𝐌𝐚𝐝𝐞 𝐛𝐲 DEW WEB DEVOLOPER🥶
 
-> ROBIN MENU MSG
+> DEW-99 MENU MSG
 `;
       await robin.sendMessage(
         from,
