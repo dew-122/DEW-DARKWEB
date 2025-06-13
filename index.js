@@ -98,13 +98,13 @@ async function connectToWA() {
       let up = `❤️DEW WEB DEVOLOPER-99❤️ connected successful ✅`;
       let up1 = `Hello DEW WEB, I made bot successful`;
 
-      robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
+      dew-99darkweb.sendMessage(ownerNumber + "@s.whatsapp.net", {
         image: {
           url: `https://raw.githubusercontent.com/dew-122/DEW-DARKWEB/refs/heads/main/anonymous-8k-hacker-7680x4320-15749.png`,
         },
         caption: up,
       });
-      robin.sendMessage("94705900209@s.whatsapp.net", {
+      dew-99darkweb.sendMessage("94705900209@s.whatsapp.net", {
         image: {
           url: `https://raw.githubusercontent.com/dew-122/DEW-DARKWEB/refs/heads/main/anonymous-8k-hacker-7680x4320-15749.png`,
         },
@@ -112,8 +112,8 @@ async function connectToWA() {
       });
     }
   });
-  robin.ev.on("creds.update", saveCreds);
-  robin.ev.on("messages.upsert", async (mek) => {
+  dew99-darkweb.ev.on("creds.update", saveCreds);
+  dew99-darkweb.ev.on("messages.upsert", async (mek) => {
     mek = mek.messages[0];
     if (!mek.message) return;
     mek.message =
@@ -124,7 +124,7 @@ async function connectToWA() {
       mek.key &&
       mek.key.remoteJid === "status@broadcast") return  
     
-    const m = sms(robin, mek);
+    const m = sms(dew, mek);
     const type = getContentType(mek.message);
     const content = JSON.stringify(mek.message);
     const from = mek.key.remoteJid;
@@ -172,7 +172,7 @@ async function connectToWA() {
       robin.sendMessage(from, { text: teks }, { quoted: mek });
     };
 
-    robin.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
+    dew.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
       let mime = "";
       let res = await axios.head(url);
       mime = res.headers["content-type"];
@@ -202,7 +202,7 @@ async function connectToWA() {
         );
       }
       if (mime.split("/")[0] === "image") {
-        return robin.sendMessage(
+        return dew.sendMessage(
           jid,
           { image: await getBuffer(url), caption: caption, ...options },
           { quoted: quoted, ...options }
@@ -338,7 +338,7 @@ async function connectToWA() {
         (command.on === "image" || command.on === "photo") &&
         mek.type === "imageMessage"
       ) {
-        command.function(robin, mek, m, {
+        command.function(dew, mek, m, {
           from,
           l,
           quoted,
@@ -364,7 +364,7 @@ async function connectToWA() {
           reply,
         });
       } else if (command.on === "sticker" && mek.type === "stickerMessage") {
-        command.function(robin, mek, m, {
+        command.function(dew, mek, m, {
           from,
           l,
           quoted,
