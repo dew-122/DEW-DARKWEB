@@ -92,7 +92,7 @@ ${menu.search}
         from,
         {
           image: {
-            url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20menu.jpg",
+            url: "https://raw.githubusercontent.com/dew-122/DEW-DARKWEB/refs/heads/main/anonymous-binary-5120x2880-15647.png",
           },
           caption: madeMenu,
         },
