@@ -61,7 +61,7 @@ async function connectToWA() {
   const prefix = config.PREFIX;
   //===========================
 
-  console.log("Connecting ❤️𝐑_𝐎_𝐁_𝐈_𝐍❤️");
+  console.log("Connecting ❤️DEW 99 -WEB DEVOLOPER❤️");
   const { state, saveCreds } = await useMultiFileAuthState(
     __dirname + "/auth_info_baileys/"
   );
@@ -76,7 +76,7 @@ async function connectToWA() {
     version,
   });
 
-  robin.ev.on("connection.update", (update) => {
+  dew.ev.on("connection.update", (update) => {
     const { connection, lastDisconnect } = update;
     if (connection === "close") {
       if (
@@ -98,13 +98,13 @@ async function connectToWA() {
       let up = `❤️DEW WEB DEVOLOPER-99❤️ connected successful ✅`;
       let up1 = `Hello DEW WEB, I made bot successful`;
 
-      dew-99darkweb.sendMessage(ownerNumber + "@s.whatsapp.net", {
+      dew-99darkweb.sendMessage(ownerNumber +94741532583 "@s.whatsapp.net", {
         image: {
           url: `https://raw.githubusercontent.com/dew-122/DEW-DARKWEB/refs/heads/main/anonymous-8k-hacker-7680x4320-15749.png`,
         },
         caption: up,
       });
-      dew-99darkweb.sendMessage("94705900209@s.whatsapp.net", {
+      dew-99darkweb.sendMessage("+94741532583@s.whatsapp.net", {
         image: {
           url: `https://raw.githubusercontent.com/dew-122/DEW-DARKWEB/refs/heads/main/anonymous-8k-hacker-7680x4320-15749.png`,
         },
