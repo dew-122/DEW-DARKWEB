@@ -92,11 +92,11 @@ async function connectToWA() {
           require("./plugins/" + plugin);
         }
       });
-      console.log("❤️𝐑_𝐎_𝐁_𝐈_𝐍❤️ installed successful ✅");
-      console.log("❤️𝐑_𝐎_𝐁_𝐈_𝐍❤️ connected to whatsapp ✅");
+      console.log("❤️DEW WEB DEVOLOPER-99❤️ installed successful ✅");
+      console.log("❤️DEW WEB DEVOLOPER-99❤️ connected to whatsapp ✅");
 
-      let up = `❤️𝐑_𝐎_𝐁_𝐈_𝐍❤️ connected successful ✅`;
-      let up1 = `Hello Robin, I made bot successful`;
+      let up = `❤️DEW WEB DEVOLOPER-99❤️ connected successful ✅`;
+      let up1 = `Hello DEW WEB, I made bot successful`;
 
       robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
         image: {
